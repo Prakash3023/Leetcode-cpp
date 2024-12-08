@@ -4,12 +4,12 @@ void twoSum(int nums[], int size, int target) {
     for (int i = 0; i < size; ++i) {
         for (int j = i + 1; j < size; ++j) {
             if (nums[i] + nums[j] == target) {
-                std::cout << i << " " << j << "\n";
+                cout << i << " " << j << "\n";
                 return; 
             }
         }
     }
-    std::cout << "No solution\n";
+    cout << "No solution\n";
 }
 
 int main() {
