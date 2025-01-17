@@ -1,3 +1,5 @@
+//To make all the array element equals to zero
+
 #include <iostream>
 #include <cmath>
 
